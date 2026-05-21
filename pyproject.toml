@@ -1,0 +1,18 @@
+[project]
+name = "codesforge-portfolio"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "codesforgee",email = "codesforge@icloud.com"}
+]
+license = "MIT"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi (>=0.136.1,<0.137.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
